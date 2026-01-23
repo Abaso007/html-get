@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### 2.21.18 (2026-01-23)
+
+
+### Bug Fixes
+
+* handle break line in content-type ([#233](https://github.com/microlinkhq/html-get/issues/233)) ([878fecd](https://github.com/microlinkhq/html-get/commit/878fecd7674c4dc1f96001046ab398b666db4b85))
+
 ### 2.21.17 (2026-01-07)
 
 
