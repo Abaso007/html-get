@@ -17,7 +17,6 @@ const domains = [
   [['domainWithoutSuffix', 'csdn']],
   [['domainWithoutSuffix', 'deviantart']],
   [['domainWithoutSuffix', 'digg']],
-  [['domainWithoutSuffix', 'dribbble']],
   [['domainWithoutSuffix', 'engadget']],
   [['domainWithoutSuffix', 'etsy']],
   [['domainWithoutSuffix', 'eventbrite']],
@@ -78,6 +77,7 @@ const { top, rest } = reduce(
   { top: new Array(topsites.length), rest: [] }
 )
 
-writeFile('./src/auto-domains.json', JSON.stringify(compact(top).concat(rest), null, 2)).catch(
-  error => console.log(error)
-)
+writeFile(
+  './src/auto-domains.json',
+  JSON.stringify(compact(top).concat(rest), null, 2)
+).catch(error => console.log(error))
